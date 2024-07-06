@@ -1,0 +1,34 @@
+/* navbar.css */
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #333; /* цвет ссылок */
+}
+
+.navbar-nav .nav-link img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.navbar-nav .form-inline .form-control {
+    width: 200px;
+    margin-right: 10px; /* отступ справа для поля поиска */
+}
+
+.navbar-nav .btn {
+    margin-left: 10px;
+    background-color: #007bff; /* цвет фона кнопки */
+    color: #fff; /* цвет текста кнопки */
+    border: none; /* убираем границу у кнопки */
+}
+
+.navbar-nav .btn:hover {
+    background-color: #0056b3; /* цвет фона кнопки при наведении */
+}
